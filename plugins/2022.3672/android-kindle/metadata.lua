@@ -6,10 +6,18 @@ local metadata =
         manifest = 
         {
             permissions = {},
-            usesPermissions = {},            
+            usesPermissions = {
+            },
             usesFeatures = {},
-            applicationChildElements = {},
+            applicationChildElements = 
+            {
+            },
         }
+    },
+    coronaManifest = {
+        dependencies = {
+            ["shared.google.play.services.base"] = "com.coronalabs",
+        },
     },
 }
 
